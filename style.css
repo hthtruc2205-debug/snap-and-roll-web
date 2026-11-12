@@ -1,0 +1,105 @@
+*{box-sizing:border-box}
+body{margin:0;color:#242424;background:#fff;font-family:Arial,sans-serif}
+a{color:inherit;text-decoration:none}
+.site-header{height:58px;padding:0 5%;display:flex;align-items:center;justify-content:space-between;background:#fff}
+.logo{font: bold 21px Georgia,serif;letter-spacing:2px}
+.site-header nav{display:flex;gap:26px;font-size:13px}
+.container{width:min(976px,92%);margin:26px auto}
+.hero{display:grid;grid-template-columns:40% 60%;min-height:360px;background:#f3f1ee;overflow:hidden}
+.hero-copy{padding:44px 42px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.hero-copy small{font-size:9px;letter-spacing:2px;color:#777}
+.hero h1{font:48px/1.03 Georgia,serif;margin:14px 0}
+.hero h1 em{font-weight:normal}
+.hero-copy p{font:13px/1.6 Georgia,serif;color:#555;margin:10px 0 20px;max-width:330px}
+.hero>img{width:100%;height:100%;min-height:360px;object-fit:cover;display:block}
+.hero-actions{display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 20px;border:1px solid #333;font-size:10px;background:#fff;cursor:pointer}
+.btn.dark{background:#222;color:#fff}
+.film-section{margin:18px 0 38px}
+.section-heading{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+.film-section h2,.listing h1{font-size:22px;margin:0}
+.section-heading>a{font-size:12px;color:#666}
+.product-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.product-card{display:block;min-width:0}
+.product-card img{display:block;width:100%;aspect-ratio:1;object-fit:contain}
+.product-card h3{font-size:15px;margin:10px 0 7px}
+.product-card strong{display:block;font-size:13px;margin-top:6px}
+.listing{min-height:520px;padding-top:18px}
+.listing h1{font-size:28px;margin-bottom:8px}
+.listing-intro{color:#666;margin:0 0 24px}
+.shop-layout{display:grid;grid-template-columns:190px 1fr;gap:28px}
+.filters{padding:8px 0;height:max-content}
+.filters h2{font-size:17px;margin:0 0 18px}
+.filters label{display:block;font-size:13px;margin:14px 0 7px}
+.filters select{width:100%;height:38px;padding:0 9px;border:0;border-bottom:1px solid #aaa;background:#fff;font-size:13px}
+.filters button{margin-top:18px;padding:8px 0;border:0;background:none;text-decoration:underline;cursor:pointer}
+.result-count{font-size:12px;color:#777;margin:0 0 12px}
+.listing-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:22px 16px}
+.detail-page{margin-top:24px;min-height:700px}
+.breadcrumb{font-size:12px;color:#555;margin:0 0 18px}
+.detail-layout{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.main-image{display:block;width:100%;aspect-ratio:1;object-fit:contain}
+.thumbnails{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:9px}
+.thumbnail{aspect-ratio:1;padding:3px;border:0;background:none;cursor:pointer;min-width:0}
+.thumbnail img{width:100%;height:100%;object-fit:contain}
+.thumbnail.active{outline:none}
+.detail-info{padding:8px 0}
+.detail-info small{font-size:12px}
+.detail-info h1{font-size:25px;margin:18px 0 14px}
+.rating{font-size:14px}
+.detail-info h2{font-size:23px;margin:18px 0}
+.detail-info>p:not(.rating):not(.spec){font-size:14px;line-height:1.75;max-width:460px}
+.buy-row{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:22px}
+.buy-row label{font-size:13px}
+.buy-row input{width:62px;height:40px;padding:6px;border:1px solid #ccc}
+.product-description{margin:34px 0 46px;max-width:850px}
+.product-description h2{font-size:21px;margin:26px 0 12px}
+.product-description p{font-size:14px;line-height:1.75;color:#444}
+.review{padding:10px 0}
+.review strong{letter-spacing:1px}
+.checkout-page{min-height:600px}
+.checkout-page h1{font-size:28px}
+.checkout-layout{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:start;margin:25px 0 55px}
+.checkout-summary{padding:8px 0}
+.checkout-summary h2{font-size:18px;margin:0 0 16px}
+.total-line{display:flex;justify-content:space-between;padding-bottom:16px}
+.cart-item{display:grid;grid-template-columns:90px 1fr auto;gap:14px;align-items:center;padding:12px 0}
+.cart-item img{width:90px;aspect-ratio:1;object-fit:contain}
+.cart-item p{margin:6px 0;color:#666;font-size:13px}
+.cart-item label{font-size:12px}
+.cart-qty{width:55px;padding:5px}
+.remove-item{border:0;background:none;text-decoration:underline;cursor:pointer}
+.empty-cart{color:#666;padding:20px 0}
+.checkout-summary form label{display:block;font-size:13px;margin:13px 0 6px}
+.checkout-summary form input,.checkout-summary textarea{width:100%;padding:10px;border:0;border-bottom:1px solid #aaa;background:#fff;font:14px Arial}
+.checkout-summary textarea{resize:vertical}
+.order-button{width:100%;margin-top:18px}
+footer{background:#eee9e1;padding:28px 5%;display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px;font-size:13px}
+footer>div:nth-child(2){text-align:center}
+footer>div:last-child{text-align:right}
+footer p{margin-bottom:0;line-height:1.8}
+@media(max-width:700px){
+.site-header{height:auto;min-height:58px;flex-wrap:wrap;padding:12px 4%;gap:12px}
+.site-header nav{gap:14px;font-size:12px;flex-wrap:wrap}
+.container{width:92%;margin:20px auto}
+.hero{grid-template-columns:1fr}
+.hero-copy{padding:32px 26px}
+.hero h1{font-size:40px}
+.hero>img{height:240px;min-height:240px}
+.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 12px}
+.shop-layout{grid-template-columns:1fr;gap:20px}
+.filters{display:grid;grid-template-columns:1fr;gap:0}
+.listing-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.detail-layout,.checkout-layout{grid-template-columns:1fr}
+.detail-page{min-height:0}
+footer{grid-template-columns:1fr;text-align:left}
+footer>div:nth-child(2),footer>div:last-child{text-align:left}
+}
+
+/* Chinh sua giao dien theo yeu cau */
+.cart-count:empty{display:none}
+.checkout-summary form input:focus,.checkout-summary textarea:focus{outline:none;box-shadow:none}
+.thumbnail,.thumbnail img{border:0;outline:none}
+
+/* Tat vien xanh khi bam vao o nhap */
+input:focus, textarea:focus, select:focus { outline: none !important; box-shadow: none !important; }
