@@ -1,9 +1,9 @@
 // Thong tin san pham
 var films = {
-  "kodak-gold": ["Kodak Gold 200", 180000, "assets/kodak-gold-1-square.png"],
-  ultramax: ["Kodak UltraMax 400", 190000, "assets/ultramax-1-square.png"],
-  "ilford-pan": ["Ilford Pan 400", 200000, "assets/ilford-1-square.png"],
-  "fuji-200": ["Fujifilm 200", 140000, "assets/fuji-1-square.jpg"],
+  "kodak-gold": ["Kodak Gold 200", 255000, "assets/kodak-gold-1-square.png"],
+  ultramax: ["Kodak UltraMax 400", 275000, "assets/ultramax-1-square.png"],
+  "ilford-pan": ["Ilford Pan 400", 257000, "assets/ilford-1-square.png"],
+  "fuji-200": ["Fujifilm 200", 260000, "assets/fuji-1-square.jpg"],
 };
 
 // Them san pham vao gio hang

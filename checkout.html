@@ -1,5 +1,58 @@
 <!DOCTYPE html>
-<html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Your Cart | Snap & Roll</title><link rel="stylesheet" href="style.css"></head>
-<body><header class="site-header"><a class="logo" href="index.html">SNAP & ROLL</a><nav><a href="index.html">Home</a><a href="products.html">Shop All</a><a href="products.html">Film Rolls</a><a href="checkout.html">Cart</a></nav></header>
-<main class="container checkout-page"><h1>Your Cart</h1><div class="checkout-layout"><section><div id="cart-items"></div><p id="empty-cart" class="empty-cart">Your cart is empty. <a href="products.html">Continue shopping →</a></p></section><aside class="checkout-summary"><h2>Order Summary</h2><p class="total-line">Tổng tiền <strong id="cart-total">0đ</strong></p><form id="checkout-form" autocomplete="off" novalidate><h2>Thông tin thanh toán</h2><label for="customer-name">Họ tên</label><input id="customer-name" name="customer_name" autocomplete="off"><label for="customer-phone">Số điện thoại</label><input id="customer-phone" name="customer_phone" type="tel" autocomplete="off"><label for="customer-address">Địa chỉ nhận hàng</label><textarea id="customer-address" name="address" rows="3" autocomplete="off"></textarea><button class="btn dark order-button" type="submit">ĐẶT HÀNG</button></form></aside></div></main>
-<footer><div><b>SNAP & ROLL.</b><p>Snap the soul, save the roll.</p></div><div><b>Quick Links</b><p><a href="products.html">Shop All</a>　<a href="products.html">Film Rolls</a></p></div><div><b>Contact</b><p>hello@snapandroll.com</p></div></footer><script src="script.js"></script></body></html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Cart | Snap & Roll</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="index.html">SNAP & ROLL</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Shop All</a>
+            <a href="products.html">Film Rolls</a>
+            <a href="checkout.html">Cart</a>
+        </nav>
+    </header>
+    <main class="container checkout-page">
+        <h1>Your Cart</h1>
+        <div class="checkout-layout">
+            <section>
+                <div id="cart-items"></div>
+                <p id="empty-cart" class="empty-cart">Your cart is empty. <a href="products.html">Continue shopping →</a></p>
+            </section>
+            <aside class="checkout-summary">
+                <h2>Order Summary</h2>
+                <p class="total-line">Tổng tiền <strong id="cart-total">0đ</strong></p>
+                <form id="checkout-form" autocomplete="off" novalidate>
+                    <h2>Thông tin thanh toán</h2>
+                    <label for="customer-name">Họ tên</label>
+                    <input id="customer-name" name="customer_name" autocomplete="off">
+                    <label for="customer-phone">Số điện thoại</label>
+                    <input id="customer-phone" name="customer_phone" type="tel" autocomplete="off">
+                    <label for="customer-address">Địa chỉ nhận hàng</label>
+                    <textarea id="customer-address" name="address" rows="3" autocomplete="off"></textarea>
+                    <button class="btn dark order-button" type="submit">ĐẶT HÀNG</button>
+                </form>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <b>SNAP & ROLL.</b>
+            <p>Snap the soul, save the roll.</p>
+        </div>
+        <div>
+            <b>Quick Links</b>
+            <p><a href="products.html">Shop All</a>　<a href="products.html">Film Rolls</a></p>
+        </div>
+        <div>
+            <b>Contact</b>
+            <p>hello@snapandroll.com</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
